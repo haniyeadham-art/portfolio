@@ -1,0 +1,494 @@
+{
+  "personal": {
+    "en": {
+      "name": "Haniye Adham",
+      "role": "Product Designer",
+      "resumeUrl": "/cv-adham-en.pdf",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/haniye-adham",
+        "email": "haniye.adham@gmail.com"
+      }
+    },
+    "fa": {
+      "name": "حانیه ادهم",
+      "role": "طراح ارشد رابط و تجربه کاربری",
+      "resumeUrl": "/cv-adham-fa.pdf",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/adham-hesaraki/",
+        "dribbble": "https://dribbble.com/adham-hesaraki",
+        "github": "https://github.com/adham-hesaraki",
+        "email": "hello@adham.dev"
+      }
+    }
+  },
+  "navigation": {
+    "en": {
+      "home": "Home",
+      "hero": "Home",
+      "Case Studies": "Case Studies",
+      "projects": "Projects",
+      "contact": "Contact",
+      "resumeCta": "Download Resume"
+    },
+    "fa": {
+      "home": "خانه",
+      "hero": "خانه",
+      "works": "نمونه‌کارها",
+      "projects": "پروژه‌ها",
+      "contact": "تماس",
+      "resumeCta": "دانلود رزومه"
+    }
+  },
+  "hero": {
+    "en": {
+      "headline": "Designing with clarity, creating with intention.",
+      "subline": "I’m Haniye, a product designer with a background in industrial design, focused on turning complex challenges into simple and intuitive products.",
+      "badges": [
+        "Available for Freelance Projects"
+      ],
+      "primaryCta": "See selected work",
+      "secondaryCta": "Get in touch"
+    },
+    "fa": {
+      "headline": "طراحی سیستم‌هایی که بدیهی به نظر می‌رسند.",
+      "subline": "طراح ارشد محصول، متمرکز بر فین‌تک و SaaS — تبدیل جریان‌های پیچیده به رابط‌های آرام و سریع.",
+      "badges": [
+        "آماده همکاری در پروژه‌های Q2",
+        "سرپرست سابق طراحی فین‌تک",
+        "بیش از ۱۰ سال تجربه"
+      ],
+      "primaryCta": "نمونه‌کارهای منتخب",
+      "secondaryCta": "تماس با من"
+    }
+  },
+  "caseStudies": {
+    "en": {
+      "featuredTitle": "Case Studies",
+      "secondaryTitle": "Other Projects",
+      "featured": [
+        {
+          "id": "1",
+          "slug": "zarebin-ai",
+          "title": "Zarebin AI",
+          "category": "AI & SEARCH",
+          "summary": "Transforming an existing search engine into an AI-powered experience, rethinking how users search, discover and interact with information.\n",
+          "tags": [
+            "Web",
+            "Mobile Web",
+            "AI Product",
+            "MUI System"
+          ],
+          "coverImage": "/cases/zarebin-ai/zarebin_ai.webp",
+          "accentColor": "#0045E5",
+          "role": "Product Designer",
+          "product": "AI Search Engine",
+          "team": "PM & Developers",
+          "overview": "Northwind's mobile app served 1.2M daily users but had grown into a maze of overlapping features after three years of incremental releases. We rebuilt the experience from the ground up — starting with the account home, payments and cards — to bring clarity back to everyday banking.",
+          "challenge": "Power users couldn't find the features they relied on and first-time users were abandoning onboarding at a 62% rate. The information architecture had drifted to the point where three different product teams owned overlapping surfaces and accessibility had quietly regressed below the WCAG 2.1 AA bar.",
+          "solution": "We ran a four-week discovery sprint with 18 customer interviews, mapped every existing flow onto a single journey canvas and rebuilt the IA around three first-class jobs: see my money, move my money and grow my money. A new token-driven design system unified the four product squads and a refreshed onboarding shrunk the activation flow from nine steps to four.",
+          "impact": [
+            {
+              "value": "+22%",
+              "label": "Task completion rate"
+            },
+            {
+              "value": "4.8★",
+              "label": "App Store rating"
+            },
+            {
+              "value": "1.2M",
+              "label": "Daily active users"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "slug": "tumor-board",
+          "title": "Tumor Board — Clinical Management System",
+          "category": "Health Care",
+          "summary": "Redesigning a complex clinical workflow to make multidisciplinary case review clearer and more efficient.",
+          "tags": [
+            "Clinical Platform",
+            "PWA",
+            "Ant Design"
+          ],
+          "coverImage": "/works/atlas.webp",
+          "accentColor": "#00C3C0",
+          "role": "Product Designer",
+          "product": "Clinical Management System",
+          "team": "PM & Developers",
+          "timeline": "4 Months",
+          "overview": "Atlas is a B2B analytics platform used by data teams inside Fortune 500 companies to monitor revenue, retention and pipeline health. The original dashboard had been stitched together over five years and was no longer keeping up with the platform's growing query surface.",
+          "challenge": "Senior analysts were spending up to 40 minutes configuring a single dashboard view and the time-to-first-insight for new accounts was a full business day. The widget library had ballooned to 84 components with overlapping semantics and the settings surface was the most common source of support tickets.",
+          "solution": "We collapsed the widget library down to 14 composable primitives and introduced a query-first authoring model that lets analysts describe what they want instead of how to render it. A new layout grid made the dashboard responsive down to 1024px and we replaced the settings modal with a contextual side panel that never loses scroll position.",
+          "impact": [
+            {
+              "value": "-38%",
+              "label": "Time to first insight"
+            },
+            {
+              "value": "12",
+              "label": "Enterprise clients onboarded"
+            },
+            {
+              "value": "+47%",
+              "label": "Weekly active analysts"
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "id": "5",
+          "slug": "zarebin-club",
+          "title": "Zarebin Club",
+          "category": "Loyalty & Engagement",
+          "summary": "A gamified loyalty and rewards platform designed to increase user engagement and retention.",
+          "tags": [
+            "club",
+            "loyalty",
+            "gamification",
+            "engagement",
+            "rewards"
+          ],
+          "coverImage": "/works/velocity.webp",
+          "accentColor": "#14b8a6"
+        },
+        {
+          "id": "6",
+          "slug": "zarebin-discovery",
+          "title": "Zarebin Discovery",
+          "category": "Content Recommendation",
+          "summary": "A personalized feed delivering news and articles based on user interests without active search queries.",
+          "tags": [
+            "feed",
+            "recommendation",
+            "discovery",
+            "personalization"
+          ],
+          "coverImage": "/works/papertrail.webp",
+          "accentColor": "#f43f5e"
+        },
+        {
+          "id": "7",
+          "slug": "zarebin-search-engine",
+          "title": "Zarebin Search Engine",
+          "category": "Search Engine",
+          "summary": "A core digital tool that indexes and retrieves web pages matching specific user text queries.",
+          "tags": [
+            "search",
+            "indexing",
+            "web",
+            "retrieval",
+            "ads"
+          ],
+          "coverImage": "/works/nudge.webp",
+          "accentColor": "#0ea5e9"
+        },
+        {
+          "id": "8",
+          "slug": "zarebin-ads",
+          "title": "Zarebin Ads",
+          "category": "Digital Advertising",
+          "summary": "An auction-based platform for running targeted paid advertisements across search results and other services.",
+          "tags": [
+            "advertising",
+            "marketing",
+            "targeted-advertising"
+          ],
+          "coverImage": "/works/fieldnotes.webp",
+          "accentColor": "#10b981"
+        },
+        {
+          "id": "10",
+          "slug": "upi",
+          "title": "UPI",
+          "category": "AI Content Discovery",
+          "summary": "An AI-driven research and video synthesis platform allowing users to subscribe to custom intelligent content feeds.",
+          "tags": [
+            "ai",
+            "conversational-search",
+            "smart-feed"
+          ],
+          "coverImage": "/works/parallax.webp",
+          "accentColor": "#f59e0b"
+        }
+      ]
+    },
+    "fa": {
+      "featuredTitle": "پروژه‌های منتخب",
+      "secondaryTitle": "کاوش‌ها",
+      "featured": [
+        {
+          "id": "1",
+          "slug": "northwind-banking",
+          "title": "نورث‌ویند بانک",
+          "category": "فین‌تک",
+          "summary": "بازطراحی تجربه اصلی بانکداری موبایل برای ۱.۲ میلیون کاربر.",
+          "tags": [
+            "موبایل",
+            "iOS",
+            "سیستم طراحی"
+          ],
+          "coverImage": "/works/northwind.webp",
+          "accentColor": "#7c3aed",
+          "role": "طراح ارشد محصول",
+          "timeline": "۶ ماه",
+          "overview": "اپلیکیشن موبایل نورث‌ویند با ۱.۲ میلیون کاربر فعال روزانه، پس از سه سال انتشار تدریجی به یک هزارتوی قابلیت‌های هم‌پوشان تبدیل شده بود. ما تجربه کاربری را از صفر بازسازی کردیم — ابتدا صفحه اصلی حساب، پرداخت و کارت‌ها — تا شفافیت را به بانکداری روزمره برگردانیم.",
+          "challenge": "کاربران حرفه‌ای قابلیت‌های مورد نیازشان را پیدا نمی‌کردند و کاربران تازه‌وارد با نرخ ۶۲٪ فرایند آنبوردینگ را رها می‌کردند. معماری اطلاعات به‌قدری جابجا شده بود که سه تیم محصول مختلف روی سطوح هم‌پوشان مالکیت داشتند و دسترس‌پذیری به‌آرامی از استاندارد WCAG 2.1 AA عقب افتاده بود.",
+          "solution": "یک اسپرینت کشف چهار هفته‌ای با ۱۸ مصاحبه با مشتری اجرا کردیم، تمام جریان‌های موجود را روی یک بوم سفر مشتری ترسیم کردیم و معماری اطلاعات را حول سه کار اصلی بازسازی کردیم: ببین، جابه‌جا کن، رشد بده. یک سیستم طراحی مبتنی بر توکن، چهار تیم محصول را یکپارچه کرد و آنبوردینگ تازه، جریان فعال‌سازی را از ۹ مرحله به ۴ مرحله کاهش داد.",
+          "impact": [
+            {
+              "value": "+۲۲٪",
+              "label": "نرخ تکمیل وظیفه"
+            },
+            {
+              "value": "۴.۸★",
+              "label": "امتیاز اپ‌استور"
+            },
+            {
+              "value": "۱.۲M",
+              "label": "کاربر فعال روزانه"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "slug": "atlas-saas",
+          "title": "اطلس — پلتفرم B2B",
+          "category": "SaaS",
+          "summary": "بازطراحی کامل داشبورد تحلیلی B2B مورد استفاده تیم‌های فورچون ۵۰۰.",
+          "tags": [
+            "داشبورد",
+            "سیستم طراحی",
+            "وب"
+          ],
+          "coverImage": "/works/atlas.webp",
+          "accentColor": "#0ea5e9",
+          "role": "طراح ارشد محصول",
+          "timeline": "۴ ماه",
+          "overview": "اطلس یک پلتفرم تحلیلی B2B است که توسط تیم‌های داده در شرکت‌های فورچون ۵۰۰ برای پایش درآمد، حفظ مشتری و سلامت خط فروش استفاده می‌شود. داشبورد اصلی در طول پنج سال به‌صورت تکه‌تکه ساخته شده بود و دیگر با سطح رو‌به‌رشد کوئری‌های پلتفرم همخوانی نداشت.",
+          "challenge": "تحلیلگران ارشد تا ۴۰ دقیقه برای پیکربندی یک نمای داشبورد وقت صرف می‌کردند و زمان تا اولین بینش برای حساب‌های جدید یک روز کامل کاری بود. کتابخانه ویجت به ۸۴ کامپوننت با معانی هم‌پوشان باد کرده بود و سطح تنظیمات، رایج‌ترین منبع تیکت‌های پشتیبانی بود.",
+          "solution": "کتابخانه ویجت را به ۱۴ مولفه ساده ترکیب‌پذیر کاهش دادیم و یک مدل نویسندگی «کوئری‌محور» معرفی کردیم که به تحلیلگران اجازه می‌دهد توصیف کنند چه می‌خواهند، نه اینکه چگونه رندر شود. یک گرید لایه‌بندی تازه، داشبورد را تا ۱۰۲۴ پیکسل واکنش‌گرا کرد و مودال تنظیمات را با یک پنل کناری زمینه‌ای جایگزین کردیم که هرگز موقعیت اسکرول را از دست نمی‌دهد.",
+          "impact": [
+            {
+              "value": "-۳۸٪",
+              "label": "زمان تا اولین بینش"
+            },
+            {
+              "value": "۱۲",
+              "label": "مشتری سازمانی onboard شده"
+            },
+            {
+              "value": "+۴۷٪",
+              "label": "تحلیلگران فعال هفتگی"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "slug": "kayan-checkout",
+          "title": "کیان — پرداخت",
+          "category": "تجارت الکترونیک",
+          "summary": "افزایش ۳۴٪ نرخ تبدیل پرداخت با جریان چندمرحله‌ای یکپارچه.",
+          "tags": [
+            "پرداخت",
+            "تست A/B",
+            "وب"
+          ],
+          "coverImage": "/works/kayan.webp",
+          "accentColor": "#10b981",
+          "role": "طراح ارشد محصول",
+          "timeline": "۳ ماه",
+          "overview": "فرایند پرداخت کیان در چهار صفحه مجزا پخش شده بود که هر کدام را یک تیم متفاوت اداره می‌کرد، و سرویس اعتبارسنجی آدرس تقریباً از هر سه سبد خرید، یکی را بلاک می‌کرد. از ما خواسته شد یک پرداخت یکپارچه، آرام و موبایل‌اول طراحی کنیم که روی نسخه وب، اپ iOS و SDK شرکای تجاری به‌طور یکسان کار کند.",
+          "challenge": "نرخ رها کردن سبد خرید ۷۱٪ بود و تیم مهندسی بیشتر از توسعه محصول، در حال آشتی دادن وضعیت‌های پرداخت بود. جریان موجود فرض می‌کرد کاربر لاگین است، ۶۰٪ ترافیک از دستگاه مهمان را نادیده می‌گرفت و در طول قیف دو بار آدرس حمل‌ونقل را می‌پرسید.",
+          "solution": "یک پرداخت تک‌مرحله‌ای با زیربخش‌های جمع‌شدنی طراحی کردیم، ساخت حساب را به یک مودال پس از خرید موکول کردیم و اعتبارسنجی آدرس را به‌صورت درون‌خطی و بخشنده بازسازی کردیم. یک کتابخانه کامپوننت مشترک، همان جریان را به وب و بومی می‌رساند و هر مرحله از طریق یک ابزار آزمایش کوچک به‌طور مستقل A/B تست‌پذیر است.",
+          "impact": [
+            {
+              "value": "+۳۴٪",
+              "label": "نرخ تبدیل پرداخت"
+            },
+            {
+              "value": "-۲۷٪",
+              "label": "رها کردن سبد خرید"
+            },
+            {
+              "value": "۱.۸s",
+              "label": "میانه زمان تا خرید"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "slug": "halcyon-onboarding",
+          "title": "هالسیون — آنبوردینگ",
+          "category": "مصرفی",
+          "summary": "کاهش ۴۱٪ ریزش آنبوردینگ با بازطراحی افشای تدریجی.",
+          "tags": [
+            "آنبوردینگ",
+            "موبایل",
+            "تحقیق"
+          ],
+          "coverImage": "/works/halcyon.webp",
+          "accentColor": "#f59e0b",
+          "role": "طراح ارشد محصول",
+          "timeline": "۲ ماه",
+          "overview": "هالسیون یک اپ سلامت مصرف‌کننده است که آنبوردینگ آن پیش از نمایش هرگونه ارزش، پانزده نقطه داده را از کاربر می‌پرسید. کاربران تازه‌وارد چنان سریع ریزش می‌کردند که منحنی فعال‌سازی تقریباً در ۴۸ ساعت اول به صفر صاف می‌شد.",
+          "challenge": "تیم بازاریابی برای شخصی‌سازی به داده‌های جمعیتی نیاز داشت و تیم محصول برای بازیابی کاربران رها‌شده به ایمیل. هر دو تیم درست می‌گفتند — و هر دو کاربر را از دست می‌دادند. باید راهی پیدا می‌کردیم که هم آنچه نیاز داریم بگیریم و هم حق ماندن کاربر را به دست آوریم.",
+          "solution": "فرم تک‌تکه را با یک جریان پنج‌صفحه‌ای افشای تدریجی جایگزین کردیم که ابتدا یک اقدام با نیت بالا را جلو می‌گذارد و بقیه را پس از دیدن اولین لحظه ارزش می‌پرسد. فیلدهای اختیاری به پروفایل پس از آنبوردینگ منتقل شد و ایمیل خوش‌آمدگویی اکنون به‌جای تکمیل فرم، بر اساس رفتار فعال می‌شود.",
+          "impact": [
+            {
+              "value": "-۴۱٪",
+              "label": "ریزش آنبوردینگ"
+            },
+            {
+              "value": "۷۸٪",
+              "label": "فعال‌سازی روز هفتم"
+            },
+            {
+              "value": "۴.۶★",
+              "label": "امتیاز نظرسنجی آنبوردینگ"
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "id": "5",
+          "slug": "velocity-design-tokens",
+          "title": "ولوسیتی — توکن‌های طراحی",
+          "category": "سیستم طراحی",
+          "summary": "خط تولید توکن‌های رنگ و فاصله استودیو را متن‌باز کردیم.",
+          "tags": [
+            "توکن",
+            "متن‌باز"
+          ],
+          "coverImage": "/works/velocity.webp",
+          "accentColor": "#14b8a6"
+        },
+        {
+          "id": "6",
+          "slug": "paper-trail-brand",
+          "title": "پیپر تریل",
+          "category": "هویت برند",
+          "summary": "نشان‌واژه، رنگ و راهنمای موشن برای یک پلتفرم نشر مستقل.",
+          "tags": [
+            "برندینگ",
+            "تایپ"
+          ],
+          "coverImage": "/works/papertrail.webp",
+          "accentColor": "#f43f5e"
+        },
+        {
+          "id": "7",
+          "slug": "nudge-microinteractions",
+          "title": "ناج",
+          "category": "موشن",
+          "summary": "بیست ریزتعامل فیزیک‌تنظیم‌شده برای یک مجموعه بهره‌وری.",
+          "tags": [
+            "موشن",
+            "تعامل"
+          ],
+          "coverImage": "/works/nudge.webp",
+          "accentColor": "#0ea5e9"
+        },
+        {
+          "id": "8",
+          "slug": "fieldnotes-illustration",
+          "title": "فیلد نوتس",
+          "category": "تصویرسازی",
+          "summary": "سامانه تصویرسازی نقطه‌ای برای ۶۴ حالت در مرکز راهنمای یک فین‌تک.",
+          "tags": [
+            "تصویرسازی",
+            "سامانه"
+          ],
+          "coverImage": "/works/fieldnotes.webp",
+          "accentColor": "#10b981"
+        },
+        {
+          "id": "9",
+          "slug": "aria-a11y-audit",
+          "title": "آریا",
+          "category": "دسترس‌پذیری",
+          "summary": "ممیزی WCAG 2.2 AA و نقشه راه اصلاح برای یک پورتال دولتی.",
+          "tags": [
+            "دسترس‌پذیری",
+            "ممیزی"
+          ],
+          "coverImage": "/works/aria.webp",
+          "accentColor": "#7c3aed"
+        },
+        {
+          "id": "10",
+          "slug": "parallax-marketing",
+          "title": "پارالاکس",
+          "category": "وب",
+          "summary": "یک مقاله بلند با اسکرول موازی که میانگین زمان مطالعه را دو برابر کرد.",
+          "tags": [
+            "محتوایی",
+            "وب"
+          ],
+          "coverImage": "/works/parallax.webp",
+          "accentColor": "#f59e0b"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "en": {
+      "heading": "Let's build something durable.",
+      "description": "Open for senior product design roles, contract engagements and selective consulting.",
+      "email": "hello@adham.dev",
+      "copyText": "Copy email",
+      "copiedText": "Copied!",
+      "location": "Tehran"
+    },
+    "fa": {
+      "heading": "بیایید چیزی ماندگار بسازیم.",
+      "description": "آماده همکاری در نقش‌های طراحی ارشد محصول، قراردادهای پروژه‌ای و مشاوره‌های منتخب.",
+      "email": "hello@adham.dev",
+      "copyText": "کپی ایمیل",
+      "copiedText": "کپی شد!",
+      "location": "تهران / ریموت"
+    }
+  },
+  "footer": {
+    "en": {
+      "copyright": "Designed & built with care by Haniye Adham. All rights reserved.",
+      "backToTop": "Back to top",
+      "quickLinks": [
+        {
+          "label": "Home",
+          "href": "#hero"
+        },
+        {
+          "label": "Works",
+          "href": "#works"
+        },
+        {
+          "label": "Contact",
+          "href": "#contact"
+        }
+      ]
+    },
+    "fa": {
+      "copyright": "طراحی و توسعه با دقت توسط ادهم حصارکی. تمامی حقوق محفوظ است.",
+      "colophon": "تایپوگرافی Geist و Vazirmatn • دیپلوی به‌صورت SSG",
+      "backToTop": "بازگشت به بالا",
+      "quickLinks": [
+        {
+          "label": "خانه",
+          "href": "#hero"
+        },
+        {
+          "label": "نمونه‌کارها",
+          "href": "#works"
+        },
+        {
+          "label": "تماس",
+          "href": "#contact"
+        }
+      ]
+    }
+  }
+}

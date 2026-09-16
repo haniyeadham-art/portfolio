@@ -1,0 +1,22 @@
+// Locale / direction constants. Single source of truth shared by the language
+// context, the data hook, and any component that needs to reason about locale.
+
+export const LOCALES = ["en", "fa"] as const;
+
+export type Locale = (typeof LOCALES)[number];
+
+export type Direction = "ltr" | "rtl";
+
+export const DEFAULT_LOCALE: Locale = "en";
+
+export const LOCALE_DIRECTION: Record<Locale, Direction> = {
+  en: "ltr",
+  fa: "rtl",
+};
+
+export function isLocale(value: unknown): value is Locale {
+  return (
+    typeof value === "string" &&
+    (LOCALES as readonly string[]).includes(value)
+  );
+}
