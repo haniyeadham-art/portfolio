@@ -19,7 +19,7 @@ import { usePortfolioData } from "@/hooks/usePortfolioData";
 // sections are built.
 const ANCHOR_LINKS = [
   { id: "/#hero", labelKey: "home" },
-  { id: "/#case-studies", labelKey: "Case Studies" },
+  { id: "/#case-studies", labelKey: "works" },
   { id: "/#other-projects", labelKey: "projects" },
   { id: "/#contact", labelKey: "contact" },
 ] as const;
@@ -30,7 +30,7 @@ export function Navbar() {
 
   const navLabel = (key: (typeof ANCHOR_LINKS)[number]["labelKey"]) => {
     if (key === "home") return localized.navigation.home;
-    if (key === "Case Studies") return localized.navigation.works;
+    if (key === "works") return localized.navigation.works;
     if (key === "projects") return localized.navigation.projects;
     return localized.navigation.contact;
   };
