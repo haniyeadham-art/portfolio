@@ -6,18 +6,20 @@
       "resumeUrl": "/cv-adham-en.pdf",
       "social": {
         "linkedin": "https://www.linkedin.com/in/haniye-adham",
-        "email": "haniye.adham@gmail.com"
+        "email": "haniye.adham@gmail.com",
+        "github": "https://github.com/haniyeadham-art",
+        "dribbble": ""
       }
     },
     "fa": {
-      "name": "حانیه ادهم",
-      "role": "طراح ارشد رابط و تجربه کاربری",
+      "name": "هانیه ادهم",
+      "role": "طراح محصول",
       "resumeUrl": "/cv-adham-fa.pdf",
       "social": {
-        "linkedin": "https://www.linkedin.com/in/adham-hesaraki/",
-        "dribbble": "https://dribbble.com/adham-hesaraki",
-        "github": "https://github.com/adham-hesaraki",
-        "email": "hello@adham.dev"
+        "linkedin": "https://www.linkedin.com/in/haniye-adham",
+        "dribbble": "",
+        "github": "https://github.com/haniyeadham-art",
+        "email": "haniye.adham@gmail.com"
       }
     }
   },
@@ -41,21 +43,19 @@
   },
   "hero": {
     "en": {
-      "headline": "Designing with clarity, creating with intention.",
-      "subline": "I’m Haniye, a product designer with a background in industrial design, focused on turning complex challenges into simple and intuitive products.",
+      "headline": "Creative partner for tech companies",
+      "subline": "Product Designer working across AI-powered search, digital products, and healthcare workflows. Experienced in translating user needs and product signals into clear flows, interaction models, and scalable design solutions.",
       "badges": [
-        "Available for Freelance Projects"
+        "Based in Tehran"
       ],
       "primaryCta": "See selected work",
       "secondaryCta": "Get in touch"
     },
     "fa": {
-      "headline": "طراحی سیستم‌هایی که بدیهی به نظر می‌رسند.",
-      "subline": "طراح ارشد محصول، متمرکز بر فین‌تک و SaaS — تبدیل جریان‌های پیچیده به رابط‌های آرام و سریع.",
+      "headline": "شریک خلاق برای شرکت‌های فناوری",
+      "subline": "طراح محصولی که روی جستجوی مبتنی بر هوش مصنوعی، محصولات دیجیتال و گردش‌کارهای حوزه سلامت کار می‌کند؛ با تجربه در تبدیل نیازهای کاربر و سیگنال‌های محصول به جریان‌های روشن، مدل‌های تعاملی و راه‌حل‌های طراحی مقیاس‌پذیر.",
       "badges": [
-        "آماده همکاری در پروژه‌های Q2",
-        "سرپرست سابق طراحی فین‌تک",
-        "بیش از ۱۰ سال تجربه"
+        "تهران"
       ],
       "primaryCta": "نمونه‌کارهای منتخب",
       "secondaryCta": "تماس با من"
@@ -71,7 +71,7 @@
           "slug": "zarebin-ai",
           "title": "Zarebin AI",
           "category": "AI & SEARCH",
-          "summary": "Transforming an existing search engine into an AI-powered experience, rethinking how users search, discover and interact with information.\n",
+          "summary": "Transforming an existing search engine into an AI-powered experience, rethinking how users search, discover and interact with information.",
           "tags": [
             "Web",
             "Mobile Web",
@@ -82,24 +82,9 @@
           "accentColor": "#0045E5",
           "role": "Product Designer",
           "product": "AI Search Engine",
-          "team": "PM & Developers",
-          "overview": "Northwind's mobile app served 1.2M daily users but had grown into a maze of overlapping features after three years of incremental releases. We rebuilt the experience from the ground up — starting with the account home, payments and cards — to bring clarity back to everyday banking.",
-          "challenge": "Power users couldn't find the features they relied on and first-time users were abandoning onboarding at a 62% rate. The information architecture had drifted to the point where three different product teams owned overlapping surfaces and accessibility had quietly regressed below the WCAG 2.1 AA bar.",
-          "solution": "We ran a four-week discovery sprint with 18 customer interviews, mapped every existing flow onto a single journey canvas and rebuilt the IA around three first-class jobs: see my money, move my money and grow my money. A new token-driven design system unified the four product squads and a refreshed onboarding shrunk the activation flow from nine steps to four.",
-          "impact": [
-            {
-              "value": "+22%",
-              "label": "Task completion rate"
-            },
-            {
-              "value": "4.8★",
-              "label": "App Store rating"
-            },
-            {
-              "value": "1.2M",
-              "label": "Daily active users"
-            }
-          ]
+          "overview": "Zarebin was an established search engine whose users were already familiar with traditional search. We set out to evolve it into an AI-powered search experience — changing not only how results are presented, but how users interact with search itself. I designed for the existing Zarebin user: someone who already knew how to search, but had no reason to know how an AI search engine should work — not for an AI expert.",
+          "challenge": "How might we transition users from traditional search to an AI-powered experience without disrupting the familiar search behavior they already know? The biggest challenge was not adding AI; it was introducing a new mental model of search to an existing user base that was not necessarily familiar with AI, while keeping the experience intuitive and approachable.",
+          "solution": "The design balances familiarity and innovation: search should still feel like search, while AI makes more than a traditional list of results possible. The experience moves from “query → results” to “Question → Answer → Exploration → Follow-up”, so the results page becomes a space to understand an answer and decide where to explore next — and a search can continue from the answer itself instead of starting over with every new question. The direction was benchmarked against AI search products (Perplexity, Google, You.com) and established search engines (Google, Bing, DuckDuckGo, Brave), and validated with users through interviews and usability tests."
         },
         {
           "id": "2",
@@ -114,27 +99,12 @@
           ],
           "coverImage": "/works/atlas.webp",
           "accentColor": "#00C3C0",
-          "role": "Product Designer",
+          "role": "Product Designer, Design System Owner",
           "product": "Clinical Management System",
-          "team": "PM & Developers",
-          "timeline": "4 Months",
-          "overview": "Atlas is a B2B analytics platform used by data teams inside Fortune 500 companies to monitor revenue, retention and pipeline health. The original dashboard had been stitched together over five years and was no longer keeping up with the platform's growing query surface.",
-          "challenge": "Senior analysts were spending up to 40 minutes configuring a single dashboard view and the time-to-first-insight for new accounts was a full business day. The widget library had ballooned to 84 components with overlapping semantics and the settings surface was the most common source of support tickets.",
-          "solution": "We collapsed the widget library down to 14 composable primitives and introduced a query-first authoring model that lets analysts describe what they want instead of how to render it. A new layout grid made the dashboard responsive down to 1024px and we replaced the settings modal with a contextual side panel that never loses scroll position.",
-          "impact": [
-            {
-              "value": "-38%",
-              "label": "Time to first insight"
-            },
-            {
-              "value": "12",
-              "label": "Enterprise clients onboarded"
-            },
-            {
-              "value": "+47%",
-              "label": "Weekly active analysts"
-            }
-          ]
+          "team": "Engineers, PM",
+          "overview": "A tumor board is a weekly multidisciplinary meeting where physicians review cancer cases and agree on treatment plans. Each hospital may run multiple boards — such as Breast or Head & Neck — each with its own members and secretary. I redesigned the end-to-end system used across multiple hospitals, enabling users to refer patients, manage weekly meetings, and document and sign treatment decisions.",
+          "challenge": "Two questions drove the work: how might we make a multi-step clinical process easy to follow, so the right people take the right action at the right time without slowing down or making mistakes? And how might we ship a data-heavy, right-to-left clinical product quickly and consistently — convenient enough that busy physicians leave their old habits behind? There was no validated benchmark to design against: no proven Persian/RTL reference, no usability data from the previous process, and no shared definition of “better”. I answered that by building the reference myself.",
+          "solution": "I mapped the real process with physicians before drawing screens — who does what before, during and after the weekly meeting — across three roles with different access scopes: physicians see only their own patients, a board secretary sees only the board they run, and a single admin sees everything. The workflow became the structure of the product: statuses are the backbone, and every status answers “who needs to act next?” — five statuses for creating a session, seven for assigning a patient case. With no benchmark to lean on, I replaced it with a feedback loop of biweekly working sessions with physicians, and built a design system for a data-heavy RTL product by localizing Ant Design into Persian and right-to-left, so a small team could ship quickly and keep every hospital consistent. Mobile and desktop were designed together, for the places physicians actually work. With no baseline to measure against, impact is described by the direction of change rather than invented numbers: reduce time on task, cut data-entry errors with structured forms and validation, and fewer workflow errors because statuses show who acts next."
         }
       ],
       "secondary": [
@@ -142,14 +112,13 @@
           "id": "5",
           "slug": "zarebin-club",
           "title": "Zarebin Club",
-          "category": "Loyalty & Engagement",
-          "summary": "A gamified loyalty and rewards platform designed to increase user engagement and retention.",
+          "category": "Gamification & Engagement",
+          "summary": "A gamification system designed to increase user engagement and loyalty. Users earn points by completing missions across Zarebin and exchange them for real rewards, such as Hamrah-e Aval mobile top-up.",
           "tags": [
-            "club",
-            "loyalty",
-            "gamification",
-            "engagement",
-            "rewards"
+            "Gamification",
+            "Loyalty",
+            "Missions",
+            "Rewards"
           ],
           "coverImage": "/works/velocity.webp",
           "accentColor": "#14b8a6"
@@ -158,13 +127,13 @@
           "id": "6",
           "slug": "zarebin-discovery",
           "title": "Zarebin Discovery",
-          "category": "Content Recommendation",
-          "summary": "A personalized feed delivering news and articles based on user interests without active search queries.",
+          "category": "Content Discovery",
+          "summary": "A personalized content feed designed to help users discover relevant and engaging Persian content — news and entertainment in one feed, without having to search first.",
           "tags": [
-            "feed",
-            "recommendation",
-            "discovery",
-            "personalization"
+            "Feed",
+            "Personalization",
+            "Persian Content",
+            "Discovery"
           ],
           "coverImage": "/works/papertrail.webp",
           "accentColor": "#f43f5e"
@@ -174,13 +143,12 @@
           "slug": "zarebin-search-engine",
           "title": "Zarebin Search Engine",
           "category": "Search Engine",
-          "summary": "A core digital tool that indexes and retrieves web pages matching specific user text queries.",
+          "summary": "A Persian-focused search experience designed to help users quickly discover relevant web content, information, and entertainment in Persian — including Smart Answers, Smart Suggestions, Related Searches and Error States designed for the results page.",
           "tags": [
-            "search",
-            "indexing",
-            "web",
-            "retrieval",
-            "ads"
+            "Search",
+            "Smart Answers",
+            "Web",
+            "Persian"
           ],
           "coverImage": "/works/nudge.webp",
           "accentColor": "#0ea5e9"
@@ -192,9 +160,9 @@
           "category": "Digital Advertising",
           "summary": "An auction-based platform for running targeted paid advertisements across search results and other services.",
           "tags": [
-            "advertising",
-            "marketing",
-            "targeted-advertising"
+            "Advertising",
+            "Marketing",
+            "Targeted Advertising"
           ],
           "coverImage": "/works/fieldnotes.webp",
           "accentColor": "#10b981"
@@ -203,12 +171,13 @@
           "id": "10",
           "slug": "upi",
           "title": "UPI",
-          "category": "AI Content Discovery",
-          "summary": "An AI-driven research and video synthesis platform allowing users to subscribe to custom intelligent content feeds.",
+          "category": "Education",
+          "summary": "A feed-based learning platform designed to make discovering educational content more engaging and personalized — a customized educational feed paired with an AI educational assistant.",
           "tags": [
-            "ai",
-            "conversational-search",
-            "smart-feed"
+            "Education",
+            "AI Assistant",
+            "Personalized Feed",
+            "Material 3"
           ],
           "coverImage": "/works/parallax.webp",
           "accentColor": "#f59e0b"
@@ -217,216 +186,120 @@
     },
     "fa": {
       "featuredTitle": "پروژه‌های منتخب",
-      "secondaryTitle": "کاوش‌ها",
+      "secondaryTitle": "پروژه‌های دیگر",
       "featured": [
         {
           "id": "1",
-          "slug": "northwind-banking",
-          "title": "نورث‌ویند بانک",
-          "category": "فین‌تک",
-          "summary": "بازطراحی تجربه اصلی بانکداری موبایل برای ۱.۲ میلیون کاربر.",
+          "slug": "zarebin-ai",
+          "title": "Zarebin AI",
+          "category": "هوش مصنوعی و جستجو",
+          "summary": "تبدیل یک موتور جستجوی موجود به تجربه‌ای مبتنی بر هوش مصنوعی؛ بازاندیشی در اینکه کاربران چگونه جستجو، کشف و با اطلاعات تعامل می‌کنند.",
           "tags": [
-            "موبایل",
-            "iOS",
-            "سیستم طراحی"
+            "وب",
+            "موبایل وب",
+            "محصول هوش مصنوعی",
+            "سیستم MUI"
           ],
-          "coverImage": "/works/northwind.webp",
-          "accentColor": "#7c3aed",
-          "role": "طراح ارشد محصول",
-          "timeline": "۶ ماه",
-          "overview": "اپلیکیشن موبایل نورث‌ویند با ۱.۲ میلیون کاربر فعال روزانه، پس از سه سال انتشار تدریجی به یک هزارتوی قابلیت‌های هم‌پوشان تبدیل شده بود. ما تجربه کاربری را از صفر بازسازی کردیم — ابتدا صفحه اصلی حساب، پرداخت و کارت‌ها — تا شفافیت را به بانکداری روزمره برگردانیم.",
-          "challenge": "کاربران حرفه‌ای قابلیت‌های مورد نیازشان را پیدا نمی‌کردند و کاربران تازه‌وارد با نرخ ۶۲٪ فرایند آنبوردینگ را رها می‌کردند. معماری اطلاعات به‌قدری جابجا شده بود که سه تیم محصول مختلف روی سطوح هم‌پوشان مالکیت داشتند و دسترس‌پذیری به‌آرامی از استاندارد WCAG 2.1 AA عقب افتاده بود.",
-          "solution": "یک اسپرینت کشف چهار هفته‌ای با ۱۸ مصاحبه با مشتری اجرا کردیم، تمام جریان‌های موجود را روی یک بوم سفر مشتری ترسیم کردیم و معماری اطلاعات را حول سه کار اصلی بازسازی کردیم: ببین، جابه‌جا کن، رشد بده. یک سیستم طراحی مبتنی بر توکن، چهار تیم محصول را یکپارچه کرد و آنبوردینگ تازه، جریان فعال‌سازی را از ۹ مرحله به ۴ مرحله کاهش داد.",
-          "impact": [
-            {
-              "value": "+۲۲٪",
-              "label": "نرخ تکمیل وظیفه"
-            },
-            {
-              "value": "۴.۸★",
-              "label": "امتیاز اپ‌استور"
-            },
-            {
-              "value": "۱.۲M",
-              "label": "کاربر فعال روزانه"
-            }
-          ]
+          "coverImage": "/cases/zarebin-ai/zarebin_ai.webp",
+          "accentColor": "#0045E5",
+          "role": "طراح محصول",
+          "overview": "ذره‌بین یک موتور جستجوی جاافتاده بود که کاربرانش با جستجوی سنتی آشنا بودند. هدف ما تکامل آن به یک تجربه جستجوی مبتنی بر هوش مصنوعی بود — تغییری نه فقط در نحوه نمایش نتایج، بلکه در خودِ نحوه تعامل کاربران با جستجو. من برای کاربر فعلی ذره‌بین طراحی کردم: کسی که جستجو کردن را بلد بود، اما دلیلی نداشت بداند یک موتور جستجوی هوش مصنوعی چطور باید کار کند — نه برای یک متخصص هوش مصنوعی.",
+          "challenge": "چطور می‌توانیم کاربران را از جستجوی سنتی به تجربه‌ای مبتنی بر هوش مصنوعی منتقل کنیم، بدون اینکه رفتار آشنای جستجویشان به هم بریزد؟ چالش اصلی اضافه کردن هوش مصنوعی نبود؛ معرفی یک مدل ذهنی تازه از جستجو به کاربران موجودی بود که لزوماً با هوش مصنوعی آشنا نبودند، در حالی که تجربه باید شهودی و دست‌یافتنی می‌ماند.",
+          "solution": "طراحی روی تعادل آشنایی و نوآوری بنا شد: جستجو باید همچنان حس جستجو بدهد، اما هوش مصنوعی چیزی بیش از یک لیست سنتی از نتایج را ممکن کند. تجربه از «کوئری ← نتایج» به «پرسش ← پاسخ ← اکتشاف ← پرسش بعدی» حرکت می‌کند؛ صفحه نتایج به فضایی برای فهمیدن پاسخ و تصمیم‌گیری درباره قدم بعدی اکتشاف تبدیل می‌شود و جستجو می‌تواند از خودِ پاسخ ادامه پیدا کند، به جای اینکه با هر پرسش تازه از صفر شروع شود. این جهت‌گیری با بنچمارک محصولات جستجوی هوش مصنوعی (Perplexity، گوگل، You.com) و موتورهای جستجوی جاافتاده (گوگل، بینگ، DuckDuckGo، Brave) سنجیده شد و با مصاحبه و تست کاربردپذیری با کاربران اعتبارسنجی شد.",
+          "product": "موتور جستجوی هوش مصنوعی"
         },
         {
           "id": "2",
-          "slug": "atlas-saas",
-          "title": "اطلس — پلتفرم B2B",
-          "category": "SaaS",
-          "summary": "بازطراحی کامل داشبورد تحلیلی B2B مورد استفاده تیم‌های فورچون ۵۰۰.",
+          "slug": "tumor-board",
+          "title": "Tumor Board — سامانه مدیریت بالینی",
+          "category": "سلامت",
+          "summary": "بازطراحی یک گردش‌کار پیچیده بالینی برای اینکه بررسی چندرشته‌ای کیس‌ها روشن‌تر و کارآمدتر شود.",
           "tags": [
-            "داشبورد",
-            "سیستم طراحی",
-            "وب"
+            "پلتفرم بالینی",
+            "PWA",
+            "Ant Design"
           ],
           "coverImage": "/works/atlas.webp",
-          "accentColor": "#0ea5e9",
-          "role": "طراح ارشد محصول",
-          "timeline": "۴ ماه",
-          "overview": "اطلس یک پلتفرم تحلیلی B2B است که توسط تیم‌های داده در شرکت‌های فورچون ۵۰۰ برای پایش درآمد، حفظ مشتری و سلامت خط فروش استفاده می‌شود. داشبورد اصلی در طول پنج سال به‌صورت تکه‌تکه ساخته شده بود و دیگر با سطح رو‌به‌رشد کوئری‌های پلتفرم همخوانی نداشت.",
-          "challenge": "تحلیلگران ارشد تا ۴۰ دقیقه برای پیکربندی یک نمای داشبورد وقت صرف می‌کردند و زمان تا اولین بینش برای حساب‌های جدید یک روز کامل کاری بود. کتابخانه ویجت به ۸۴ کامپوننت با معانی هم‌پوشان باد کرده بود و سطح تنظیمات، رایج‌ترین منبع تیکت‌های پشتیبانی بود.",
-          "solution": "کتابخانه ویجت را به ۱۴ مولفه ساده ترکیب‌پذیر کاهش دادیم و یک مدل نویسندگی «کوئری‌محور» معرفی کردیم که به تحلیلگران اجازه می‌دهد توصیف کنند چه می‌خواهند، نه اینکه چگونه رندر شود. یک گرید لایه‌بندی تازه، داشبورد را تا ۱۰۲۴ پیکسل واکنش‌گرا کرد و مودال تنظیمات را با یک پنل کناری زمینه‌ای جایگزین کردیم که هرگز موقعیت اسکرول را از دست نمی‌دهد.",
-          "impact": [
-            {
-              "value": "-۳۸٪",
-              "label": "زمان تا اولین بینش"
-            },
-            {
-              "value": "۱۲",
-              "label": "مشتری سازمانی onboard شده"
-            },
-            {
-              "value": "+۴۷٪",
-              "label": "تحلیلگران فعال هفتگی"
-            }
-          ]
-        },
-        {
-          "id": "3",
-          "slug": "kayan-checkout",
-          "title": "کیان — پرداخت",
-          "category": "تجارت الکترونیک",
-          "summary": "افزایش ۳۴٪ نرخ تبدیل پرداخت با جریان چندمرحله‌ای یکپارچه.",
-          "tags": [
-            "پرداخت",
-            "تست A/B",
-            "وب"
-          ],
-          "coverImage": "/works/kayan.webp",
-          "accentColor": "#10b981",
-          "role": "طراح ارشد محصول",
-          "timeline": "۳ ماه",
-          "overview": "فرایند پرداخت کیان در چهار صفحه مجزا پخش شده بود که هر کدام را یک تیم متفاوت اداره می‌کرد، و سرویس اعتبارسنجی آدرس تقریباً از هر سه سبد خرید، یکی را بلاک می‌کرد. از ما خواسته شد یک پرداخت یکپارچه، آرام و موبایل‌اول طراحی کنیم که روی نسخه وب، اپ iOS و SDK شرکای تجاری به‌طور یکسان کار کند.",
-          "challenge": "نرخ رها کردن سبد خرید ۷۱٪ بود و تیم مهندسی بیشتر از توسعه محصول، در حال آشتی دادن وضعیت‌های پرداخت بود. جریان موجود فرض می‌کرد کاربر لاگین است، ۶۰٪ ترافیک از دستگاه مهمان را نادیده می‌گرفت و در طول قیف دو بار آدرس حمل‌ونقل را می‌پرسید.",
-          "solution": "یک پرداخت تک‌مرحله‌ای با زیربخش‌های جمع‌شدنی طراحی کردیم، ساخت حساب را به یک مودال پس از خرید موکول کردیم و اعتبارسنجی آدرس را به‌صورت درون‌خطی و بخشنده بازسازی کردیم. یک کتابخانه کامپوننت مشترک، همان جریان را به وب و بومی می‌رساند و هر مرحله از طریق یک ابزار آزمایش کوچک به‌طور مستقل A/B تست‌پذیر است.",
-          "impact": [
-            {
-              "value": "+۳۴٪",
-              "label": "نرخ تبدیل پرداخت"
-            },
-            {
-              "value": "-۲۷٪",
-              "label": "رها کردن سبد خرید"
-            },
-            {
-              "value": "۱.۸s",
-              "label": "میانه زمان تا خرید"
-            }
-          ]
-        },
-        {
-          "id": "4",
-          "slug": "halcyon-onboarding",
-          "title": "هالسیون — آنبوردینگ",
-          "category": "مصرفی",
-          "summary": "کاهش ۴۱٪ ریزش آنبوردینگ با بازطراحی افشای تدریجی.",
-          "tags": [
-            "آنبوردینگ",
-            "موبایل",
-            "تحقیق"
-          ],
-          "coverImage": "/works/halcyon.webp",
-          "accentColor": "#f59e0b",
-          "role": "طراح ارشد محصول",
-          "timeline": "۲ ماه",
-          "overview": "هالسیون یک اپ سلامت مصرف‌کننده است که آنبوردینگ آن پیش از نمایش هرگونه ارزش، پانزده نقطه داده را از کاربر می‌پرسید. کاربران تازه‌وارد چنان سریع ریزش می‌کردند که منحنی فعال‌سازی تقریباً در ۴۸ ساعت اول به صفر صاف می‌شد.",
-          "challenge": "تیم بازاریابی برای شخصی‌سازی به داده‌های جمعیتی نیاز داشت و تیم محصول برای بازیابی کاربران رها‌شده به ایمیل. هر دو تیم درست می‌گفتند — و هر دو کاربر را از دست می‌دادند. باید راهی پیدا می‌کردیم که هم آنچه نیاز داریم بگیریم و هم حق ماندن کاربر را به دست آوریم.",
-          "solution": "فرم تک‌تکه را با یک جریان پنج‌صفحه‌ای افشای تدریجی جایگزین کردیم که ابتدا یک اقدام با نیت بالا را جلو می‌گذارد و بقیه را پس از دیدن اولین لحظه ارزش می‌پرسد. فیلدهای اختیاری به پروفایل پس از آنبوردینگ منتقل شد و ایمیل خوش‌آمدگویی اکنون به‌جای تکمیل فرم، بر اساس رفتار فعال می‌شود.",
-          "impact": [
-            {
-              "value": "-۴۱٪",
-              "label": "ریزش آنبوردینگ"
-            },
-            {
-              "value": "۷۸٪",
-              "label": "فعال‌سازی روز هفتم"
-            },
-            {
-              "value": "۴.۶★",
-              "label": "امتیاز نظرسنجی آنبوردینگ"
-            }
-          ]
+          "accentColor": "#00C3C0",
+          "role": "طراح محصول، مالک سیستم طراحی",
+          "overview": "تومور بورد جلسه‌ای هفتگی و چندرشته‌ای است که در آن پزشکان کیس‌های سرطان را بررسی و درباره برنامه درمانی به توافق می‌رسند. هر بیمارستان می‌تواند چند بورد داشته باشد — مثل پستان یا سر و گردن — که هر کدام اعضا و دبیر خودش را دارد. من سامانه سرتاسری مورد استفاده در چند بیمارستان را بازطراحی کردم؛ سامانه‌ای برای ارجاع بیماران، مدیریت جلسات هفتگی و مستندسازی و امضای تصمیم‌های درمانی.",
+          "challenge": "دو پرسش کار را هدایت می‌کرد: چطور یک فرایند بالینی چندمرحله‌ای را طوری ساده کنیم که افراد درست، در زمان درست، اقدام درست را انجام دهند — بدون کند شدن یا خطا؟ و چطور یک محصول بالینی داده‌محور و راست‌به‌چپ را سریع و یکدست عرضه کنیم، آن‌قدر راحت که پزشکان پرمشغله عادت‌های قدیمی‌شان را کنار بگذارند؟ هیچ بنچمارک اعتبارسنجی‌شده‌ای برای طراحی وجود نداشت: نه مرجع اثبات‌شده فارسی/راست‌به‌چپ، نه داده کاربردپذیری از فرایند قبلی و نه تعریف مشترکی از «بهتر». پاسخ من این بود که خودم آن مرجع را بسازم.",
+          "solution": "پیش از کشیدن هر صفحه‌ای، فرایند واقعی را با پزشکان نقشه کردم — چه کسی پیش، حین و پس از جلسه هفتگی چه کاری می‌کند — در سه نقش با سطح دسترسی متفاوت: پزشکان فقط بیماران خودشان را می‌بینند، دبیر بورد فقط بوردی را که اداره می‌کند می‌بیند و یک ادمین به همه‌چیز دسترسی دارد. گردش‌کار به ساختار محصول تبدیل شد: وضعیت‌ها ستون فقرات‌اند و هر وضعیت پاسخ می‌دهد «قدم بعدی با کیست؟» — پنج وضعیت برای ساخت جلسه و هفت وضعیت برای تخصیص کیس بیمار. در نبود بنچمارک، یک حلقه بازخورد از جلسات کاری دوبار در ماه با پزشکان جای آن را گرفت و برای محصول راست‌به‌چپ داده‌محور، Ant Design را به فارسی و راست‌به‌چپ بومی‌سازی کردم تا تیمی کوچک سریع عرضه کند و تجربه همه بیمارستان‌ها یکدست بماند. موبایل و دسکتاپ با هم طراحی شدند، برای جاهایی که پزشکان واقعاً کار می‌کنند. چون خط مبنایی برای اندازه‌گیری وجود نداشت، اثر کار با جهت تغییر توصیف می‌شود، نه عددهای ساختگی: کاهش زمان انجام کار، کاهش خطاهای ورود داده با فرم‌های ساخت‌یافته و اعتبارسنجی، و خطاهای گردش‌کار کمتر چون وضعیت‌ها نشان می‌دهند اقدام بعدی با کیست.",
+          "product": "سامانه مدیریت بالینی",
+          "team": "مهندسان، مدیر محصول"
         }
       ],
       "secondary": [
         {
           "id": "5",
-          "slug": "velocity-design-tokens",
-          "title": "ولوسیتی — توکن‌های طراحی",
-          "category": "سیستم طراحی",
-          "summary": "خط تولید توکن‌های رنگ و فاصله استودیو را متن‌باز کردیم.",
+          "slug": "zarebin-club",
+          "title": "Zarebin Club",
+          "category": "بازی‌وارسازی و تعامل",
+          "summary": "یک سیستم بازی‌وارسازی برای افزایش تعامل و وفاداری کاربران. کاربران با انجام مأموریت‌ها در بخش‌های مختلف ذره‌بین امتیاز می‌گیرند و آن را با جایزه‌های واقعی مثل شارژ همراه اول عوض می‌کنند.",
           "tags": [
-            "توکن",
-            "متن‌باز"
+            "بازی‌وارسازی",
+            "وفاداری",
+            "مأموریت",
+            "جایزه"
           ],
           "coverImage": "/works/velocity.webp",
           "accentColor": "#14b8a6"
         },
         {
           "id": "6",
-          "slug": "paper-trail-brand",
-          "title": "پیپر تریل",
-          "category": "هویت برند",
-          "summary": "نشان‌واژه، رنگ و راهنمای موشن برای یک پلتفرم نشر مستقل.",
+          "slug": "zarebin-discovery",
+          "title": "Zarebin Discovery",
+          "category": "کشف محتوا",
+          "summary": "یک فید محتوای شخصی‌سازی‌شده برای اینکه کاربران محتوای فارسی مرتبط و جذاب را کشف کنند — خبر و سرگرمی در یک فید، بدون اینکه لازم باشد اول جستجو کنند.",
           "tags": [
-            "برندینگ",
-            "تایپ"
+            "فید",
+            "شخصی‌سازی",
+            "محتوای فارسی",
+            "اکتشاف"
           ],
           "coverImage": "/works/papertrail.webp",
           "accentColor": "#f43f5e"
         },
         {
           "id": "7",
-          "slug": "nudge-microinteractions",
-          "title": "ناج",
-          "category": "موشن",
-          "summary": "بیست ریزتعامل فیزیک‌تنظیم‌شده برای یک مجموعه بهره‌وری.",
+          "slug": "zarebin-search-engine",
+          "title": "Zarebin Search Engine",
+          "category": "موتور جستجو",
+          "summary": "یک تجربه جستجوی فارسی‌محور برای اینکه کاربران سریع محتوای وب، اطلاعات و سرگرمی فارسی را پیدا کنند — شامل پاسخ‌های هوشمند، پیشنهادهای هوشمند، جستجوهای مرتبط و وضعیت‌های خطا که برای صفحه نتایج طراحی شده‌اند.",
           "tags": [
-            "موشن",
-            "تعامل"
+            "جستجو",
+            "پاسخ هوشمند",
+            "وب",
+            "فارسی"
           ],
           "coverImage": "/works/nudge.webp",
           "accentColor": "#0ea5e9"
         },
         {
           "id": "8",
-          "slug": "fieldnotes-illustration",
-          "title": "فیلد نوتس",
-          "category": "تصویرسازی",
-          "summary": "سامانه تصویرسازی نقطه‌ای برای ۶۴ حالت در مرکز راهنمای یک فین‌تک.",
+          "slug": "zarebin-ads",
+          "title": "Zarebin Ads",
+          "category": "تبلیغات دیجیتال",
+          "summary": "یک پلتفرم مزایده‌محور برای اجرای تبلیغات پولی هدفمند در نتایج جستجو و سرویس‌های دیگر.",
           "tags": [
-            "تصویرسازی",
-            "سامانه"
+            "تبلیغات",
+            "بازاریابی",
+            "تبلیغات هدفمند"
           ],
           "coverImage": "/works/fieldnotes.webp",
           "accentColor": "#10b981"
         },
         {
-          "id": "9",
-          "slug": "aria-a11y-audit",
-          "title": "آریا",
-          "category": "دسترس‌پذیری",
-          "summary": "ممیزی WCAG 2.2 AA و نقشه راه اصلاح برای یک پورتال دولتی.",
-          "tags": [
-            "دسترس‌پذیری",
-            "ممیزی"
-          ],
-          "coverImage": "/works/aria.webp",
-          "accentColor": "#7c3aed"
-        },
-        {
           "id": "10",
-          "slug": "parallax-marketing",
-          "title": "پارالاکس",
-          "category": "وب",
-          "summary": "یک مقاله بلند با اسکرول موازی که میانگین زمان مطالعه را دو برابر کرد.",
+          "slug": "upi",
+          "title": "UPI",
+          "category": "آموزش",
+          "summary": "یک پلتفرم یادگیری فیدمحور برای اینکه کشف محتوای آموزشی جذاب‌تر و شخصی‌تر شود — یک فید آموزشی سفارشی در کنار یک دستیار آموزشی هوش مصنوعی.",
           "tags": [
-            "محتوایی",
-            "وب"
+            "آموزش",
+            "دستیار هوش مصنوعی",
+            "فید شخصی",
+            "Material 3"
           ],
           "coverImage": "/works/parallax.webp",
           "accentColor": "#f59e0b"
@@ -436,25 +309,26 @@
   },
   "contact": {
     "en": {
-      "heading": "Let's build something durable.",
-      "description": "Open for senior product design roles, contract engagements and selective consulting.",
-      "email": "hello@adham.dev",
+      "heading": "Let's work together!",
+      "description": "Product Designer working across AI-powered search, digital products, and healthcare workflows — based in Tehran.",
+      "email": "haniye.adham@gmail.com",
       "copyText": "Copy email",
       "copiedText": "Copied!",
       "location": "Tehran"
     },
     "fa": {
-      "heading": "بیایید چیزی ماندگار بسازیم.",
-      "description": "آماده همکاری در نقش‌های طراحی ارشد محصول، قراردادهای پروژه‌ای و مشاوره‌های منتخب.",
-      "email": "hello@adham.dev",
+      "heading": "بیایید با هم کار کنیم!",
+      "description": "طراح محصولی که روی جستجوی مبتنی بر هوش مصنوعی، محصولات دیجیتال و گردش‌کارهای حوزه سلامت کار می‌کند — تهران.",
+      "email": "haniye.adham@gmail.com",
       "copyText": "کپی ایمیل",
       "copiedText": "کپی شد!",
-      "location": "تهران / ریموت"
+      "location": "تهران"
     }
   },
   "footer": {
     "en": {
       "copyright": "Designed & built with care by Haniye Adham. All rights reserved.",
+      "colophon": "",
       "backToTop": "Back to top",
       "quickLinks": [
         {
@@ -472,7 +346,7 @@
       ]
     },
     "fa": {
-      "copyright": "طراحی و توسعه با دقت توسط ادهم حصارکی. تمامی حقوق محفوظ است.",
+      "copyright": "طراحی و توسعه با دقت توسط هانیه ادهم. تمامی حقوق محفوظ است.",
       "colophon": "تایپوگرافی Geist و Vazirmatn • دیپلوی به‌صورت SSG",
       "backToTop": "بازگشت به بالا",
       "quickLinks": [
