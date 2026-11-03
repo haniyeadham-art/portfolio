@@ -104,7 +104,21 @@
           "team": "Engineers, PM",
           "overview": "A tumor board is a weekly multidisciplinary meeting where physicians review cancer cases and agree on treatment plans. Each hospital may run multiple boards — such as Breast or Head & Neck — each with its own members and secretary. I redesigned the end-to-end system used across multiple hospitals, enabling users to refer patients, manage weekly meetings, and document and sign treatment decisions.",
           "challenge": "Two questions drove the work: how might we make a multi-step clinical process easy to follow, so the right people take the right action at the right time without slowing down or making mistakes? And how might we ship a data-heavy, right-to-left clinical product quickly and consistently — convenient enough that busy physicians leave their old habits behind? There was no validated benchmark to design against: no proven Persian/RTL reference, no usability data from the previous process, and no shared definition of “better”. I answered that by building the reference myself.",
-          "solution": "I mapped the real process with physicians before drawing screens — who does what before, during and after the weekly meeting — across three roles with different access scopes: physicians see only their own patients, a board secretary sees only the board they run, and a single admin sees everything. The workflow became the structure of the product: statuses are the backbone, and every status answers “who needs to act next?” — five statuses for creating a session, seven for assigning a patient case. With no benchmark to lean on, I replaced it with a feedback loop of biweekly working sessions with physicians, and built a design system for a data-heavy RTL product by localizing Ant Design into Persian and right-to-left, so a small team could ship quickly and keep every hospital consistent. Mobile and desktop were designed together, for the places physicians actually work. With no baseline to measure against, impact is described by the direction of change rather than invented numbers: reduce time on task, cut data-entry errors with structured forms and validation, and fewer workflow errors because statuses show who acts next."
+          "solution": "I mapped the real process with physicians before drawing screens — who does what before, during and after the weekly meeting — across three roles with different access scopes: physicians see only their own patients, a board secretary sees only the board they run, and a single admin sees everything. The workflow became the structure of the product: statuses are the backbone, and every status answers “who needs to act next?” — five statuses for creating a session, seven for assigning a patient case. With no benchmark to lean on, I replaced it with a feedback loop of biweekly working sessions with physicians, and built a design system for a data-heavy RTL product by localizing Ant Design into Persian and right-to-left, so a small team could ship quickly and keep every hospital consistent. Mobile and desktop were designed together, for the places physicians actually work. With no baseline to measure against, impact is described by the direction of change rather than invented numbers: reduce time on task, cut data-entry errors with structured forms and validation, and fewer workflow errors because statuses show who acts next.",
+          "impact": [
+            {
+              "value": "Fewer steps",
+              "label": "Reduce time on task across referral, meeting preparation and documentation"
+            },
+            {
+              "value": "Structured forms",
+              "label": "Cut data-entry errors with forms and validation instead of free-form entry"
+            },
+            {
+              "value": "Clear next actions",
+              "label": "Fewer workflow errors — statuses show who needs to act next"
+            }
+          ]
         }
       ],
       "secondary": [
@@ -121,7 +135,10 @@
             "Rewards"
           ],
           "coverImage": "/works/velocity.webp",
-          "accentColor": "#14b8a6"
+          "accentColor": "#14b8a6",
+          "overview": "Zarebin Club was a gamification system designed to increase user engagement and loyalty. Users earned points and rewards by completing missions and various in-app activities. The idea behind it: the Club turns everyday use into progress — instead of asking people to engage more, it gives them small, clear goals. Each mission asks for one simple action inside Zarebin, and completing it earns points that can be exchanged for a real reward: Hamrah-e Aval mobile top-up. The missions covered different parts of the product, so the Club also pushed people to discover features they would not have opened on their own.",
+          "challenge": "The goal was to motivate users to return, participate, and engage more with Zarebin — and to help them discover parts of the product they would not have opened on their own.",
+          "solution": "How the Club works: missions give people a clear task inside Zarebin — watch a video, like a post in Discovery, save a post, search a query in the search engine. Points reward every completed mission and activity, so progress is visible, and points can be exchanged for Hamrah-e Aval mobile top-up. Progress and status show what is done, what is left and how close the next reward is. I designed the points box — the card that shows how many points a person has earned — and the Club's error states, which tell people what happened and what to do next when something goes wrong."
         },
         {
           "id": "6",
@@ -136,7 +153,17 @@
             "Discovery"
           ],
           "coverImage": "/works/papertrail.webp",
-          "accentColor": "#f43f5e"
+          "accentColor": "#f43f5e",
+          "role": "Product Design",
+          "overview": "Discovery gives people access to news and customized entertainment videos in one feed, so they can find something worth reading or watching without having to search for it first. It sits on the home page of Zarebin, so it is one of the first things people see when they open the product. I worked on Discovery on an ongoing basis: I regularly reviewed the product data, found where people dropped off or ignored content, and improved the UX based on what I saw.",
+          "challenge": "Comments could not be posted instantly. Every comment had to pass CP review before it could appear, so a comment was not visible right after the person sent it.",
+          "solution": "I designed a status for each comment, so people can see what is happening to it: “Under review” while it waits, and “Rejected” if it does not pass. I also designed five user journeys — tabs design and customization, feedback and problem reporting, the full-screen opened post, comments, and collecting user opinion — and used Grafana dashboards (time spent, engagement, video consumption, return behavior and saves) to guide ongoing UX improvements.",
+          "impact": [
+            {
+              "value": "Increased engagement",
+              "label": "User engagement with Discovery increased by improving the feed experience and adding customization, so people could shape the feed around their own interests"
+            }
+          ]
         },
         {
           "id": "7",
@@ -151,7 +178,12 @@
             "Persian"
           ],
           "coverImage": "/works/nudge.webp",
-          "accentColor": "#0ea5e9"
+          "accentColor": "#0ea5e9",
+          "role": "Product Designer",
+          "team": "Product Design Lead, PMs, Engineers",
+          "overview": "Zarebin Search Engine is a Persian-focused search experience that helps people quickly find web content, information and entertainment in Persian. I joined Zarebin's design team in 2023 and designed the parts of the results page that go beyond a list of links: Smart Answers for Sports, Movies & TV Shows, Product Shopping and Ticket Booking, plus Smart Suggestions, Related Searches and Error States. The idea behind it: a results page can do more than point to other websites — for common needs such as a match result, a film, a product price or a ticket, the page itself can show the answer, so the person gets what they came for without opening a second page.",
+          "challenge": "During internet outages, websites with international domains became inaccessible, even though the issue was beyond Zarebin's control. Users often assumed Zarebin itself was failing to open websites, negatively impacting their trust in the product. The product and project managers strongly opposed removing inaccessible websites from search results.",
+          "solution": "Rather than hiding inaccessible results, I chose to visually distinguish unavailable websites using a disabled state. This made it clear that these websites could not be accessed at the moment, without removing them from the results. I also introduced a “View Website Offline” action, allowing users to read a website's previously retrieved text content without needing an active connection to the original website. The trade-off: users could still discover relevant websites but could not navigate to the original pages; the offline reading option provided an alternative way to access the content, although it could not replace the full, interactive website experience."
         },
         {
           "id": "8",
@@ -180,7 +212,22 @@
             "Material 3"
           ],
           "coverImage": "/works/parallax.webp",
-          "accentColor": "#f59e0b"
+          "accentColor": "#f59e0b",
+          "role": "Product Designer",
+          "team": "PMs",
+          "overview": "UPI is an educational product with two parts that work together: a customized educational feed and an AI educational assistant. People get learning content shaped around what they want to learn, and an assistant they can ask when they need help understanding something.",
+          "challenge": "The goal was creating an educational assistant — a feed-based learning experience designed to make discovering educational content more engaging and personalized.",
+          "solution": "Before and during design, I grounded the work in research. Quantitative data analysis: we reviewed the data of the Zarebin assistant to learn how people use an assistant, ran smoke tests and ran a survey. Qualitative data analysis: we held focus groups and interviewed users.",
+          "impact": [
+            {
+              "value": "16",
+              "label": "Users interviewed"
+            },
+            {
+              "value": "3",
+              "label": "Focus group sessions"
+            }
+          ]
         }
       ]
     },
@@ -203,10 +250,10 @@
           "coverImage": "/cases/zarebin-ai/zarebin_ai.webp",
           "accentColor": "#0045E5",
           "role": "طراح محصول",
+          "product": "موتور جستجوی هوش مصنوعی",
           "overview": "ذره‌بین یک موتور جستجوی جاافتاده بود که کاربرانش با جستجوی سنتی آشنا بودند. هدف ما تکامل آن به یک تجربه جستجوی مبتنی بر هوش مصنوعی بود — تغییری نه فقط در نحوه نمایش نتایج، بلکه در خودِ نحوه تعامل کاربران با جستجو. من برای کاربر فعلی ذره‌بین طراحی کردم: کسی که جستجو کردن را بلد بود، اما دلیلی نداشت بداند یک موتور جستجوی هوش مصنوعی چطور باید کار کند — نه برای یک متخصص هوش مصنوعی.",
           "challenge": "چطور می‌توانیم کاربران را از جستجوی سنتی به تجربه‌ای مبتنی بر هوش مصنوعی منتقل کنیم، بدون اینکه رفتار آشنای جستجویشان به هم بریزد؟ چالش اصلی اضافه کردن هوش مصنوعی نبود؛ معرفی یک مدل ذهنی تازه از جستجو به کاربران موجودی بود که لزوماً با هوش مصنوعی آشنا نبودند، در حالی که تجربه باید شهودی و دست‌یافتنی می‌ماند.",
-          "solution": "طراحی روی تعادل آشنایی و نوآوری بنا شد: جستجو باید همچنان حس جستجو بدهد، اما هوش مصنوعی چیزی بیش از یک لیست سنتی از نتایج را ممکن کند. تجربه از «کوئری ← نتایج» به «پرسش ← پاسخ ← اکتشاف ← پرسش بعدی» حرکت می‌کند؛ صفحه نتایج به فضایی برای فهمیدن پاسخ و تصمیم‌گیری درباره قدم بعدی اکتشاف تبدیل می‌شود و جستجو می‌تواند از خودِ پاسخ ادامه پیدا کند، به جای اینکه با هر پرسش تازه از صفر شروع شود. این جهت‌گیری با بنچمارک محصولات جستجوی هوش مصنوعی (Perplexity، گوگل، You.com) و موتورهای جستجوی جاافتاده (گوگل، بینگ، DuckDuckGo، Brave) سنجیده شد و با مصاحبه و تست کاربردپذیری با کاربران اعتبارسنجی شد.",
-          "product": "موتور جستجوی هوش مصنوعی"
+          "solution": "طراحی روی تعادل آشنایی و نوآوری بنا شد: جستجو باید همچنان حس جستجو بدهد، اما هوش مصنوعی چیزی بیش از یک لیست سنتی از نتایج را ممکن کند. تجربه از «کوئری ← نتایج» به «پرسش ← پاسخ ← اکتشاف ← پرسش بعدی» حرکت می‌کند؛ صفحه نتایج به فضایی برای فهمیدن پاسخ و تصمیم‌گیری درباره قدم بعدی اکتشاف تبدیل می‌شود و جستجو می‌تواند از خودِ پاسخ ادامه پیدا کند، به جای اینکه با هر پرسش تازه از صفر شروع شود. این جهت‌گیری با بنچمارک محصولات جستجوی هوش مصنوعی (Perplexity، گوگل، You.com) و موتورهای جستجوی جاافتاده (گوگل، بینگ، DuckDuckGo، Brave) سنجیده شد و با مصاحبه و تست کاربردپذیری با کاربران اعتبارسنجی شد."
         },
         {
           "id": "2",
@@ -222,11 +269,25 @@
           "coverImage": "/works/atlas.webp",
           "accentColor": "#00C3C0",
           "role": "طراح محصول، مالک سیستم طراحی",
+          "product": "سامانه مدیریت بالینی",
+          "team": "مهندسان، مدیر محصول",
           "overview": "تومور بورد جلسه‌ای هفتگی و چندرشته‌ای است که در آن پزشکان کیس‌های سرطان را بررسی و درباره برنامه درمانی به توافق می‌رسند. هر بیمارستان می‌تواند چند بورد داشته باشد — مثل پستان یا سر و گردن — که هر کدام اعضا و دبیر خودش را دارد. من سامانه سرتاسری مورد استفاده در چند بیمارستان را بازطراحی کردم؛ سامانه‌ای برای ارجاع بیماران، مدیریت جلسات هفتگی و مستندسازی و امضای تصمیم‌های درمانی.",
           "challenge": "دو پرسش کار را هدایت می‌کرد: چطور یک فرایند بالینی چندمرحله‌ای را طوری ساده کنیم که افراد درست، در زمان درست، اقدام درست را انجام دهند — بدون کند شدن یا خطا؟ و چطور یک محصول بالینی داده‌محور و راست‌به‌چپ را سریع و یکدست عرضه کنیم، آن‌قدر راحت که پزشکان پرمشغله عادت‌های قدیمی‌شان را کنار بگذارند؟ هیچ بنچمارک اعتبارسنجی‌شده‌ای برای طراحی وجود نداشت: نه مرجع اثبات‌شده فارسی/راست‌به‌چپ، نه داده کاربردپذیری از فرایند قبلی و نه تعریف مشترکی از «بهتر». پاسخ من این بود که خودم آن مرجع را بسازم.",
           "solution": "پیش از کشیدن هر صفحه‌ای، فرایند واقعی را با پزشکان نقشه کردم — چه کسی پیش، حین و پس از جلسه هفتگی چه کاری می‌کند — در سه نقش با سطح دسترسی متفاوت: پزشکان فقط بیماران خودشان را می‌بینند، دبیر بورد فقط بوردی را که اداره می‌کند می‌بیند و یک ادمین به همه‌چیز دسترسی دارد. گردش‌کار به ساختار محصول تبدیل شد: وضعیت‌ها ستون فقرات‌اند و هر وضعیت پاسخ می‌دهد «قدم بعدی با کیست؟» — پنج وضعیت برای ساخت جلسه و هفت وضعیت برای تخصیص کیس بیمار. در نبود بنچمارک، یک حلقه بازخورد از جلسات کاری دوبار در ماه با پزشکان جای آن را گرفت و برای محصول راست‌به‌چپ داده‌محور، Ant Design را به فارسی و راست‌به‌چپ بومی‌سازی کردم تا تیمی کوچک سریع عرضه کند و تجربه همه بیمارستان‌ها یکدست بماند. موبایل و دسکتاپ با هم طراحی شدند، برای جاهایی که پزشکان واقعاً کار می‌کنند. چون خط مبنایی برای اندازه‌گیری وجود نداشت، اثر کار با جهت تغییر توصیف می‌شود، نه عددهای ساختگی: کاهش زمان انجام کار، کاهش خطاهای ورود داده با فرم‌های ساخت‌یافته و اعتبارسنجی، و خطاهای گردش‌کار کمتر چون وضعیت‌ها نشان می‌دهند اقدام بعدی با کیست.",
-          "product": "سامانه مدیریت بالینی",
-          "team": "مهندسان، مدیر محصول"
+          "impact": [
+            {
+              "value": "قدم‌های کمتر",
+              "label": "کاهش زمان انجام کار در ارجاع، آماده‌سازی جلسه و مستندسازی"
+            },
+            {
+              "value": "فرم‌های ساخت‌یافته",
+              "label": "کاهش خطاهای ورود داده با فرم و اعتبارسنجی، به جای ورود آزاد"
+            },
+            {
+              "value": "اقدام بعدی روشن",
+              "label": "خطاهای گردش‌کار کمتر — وضعیت‌ها نشان می‌دهند اقدام بعدی با کیست"
+            }
+          ]
         }
       ],
       "secondary": [
@@ -243,7 +304,10 @@
             "جایزه"
           ],
           "coverImage": "/works/velocity.webp",
-          "accentColor": "#14b8a6"
+          "accentColor": "#14b8a6",
+          "overview": "کلاب ذره‌بین یک سیستم بازی‌وارسازی بود که برای افزایش تعامل و وفاداری کاربران طراحی شد. کاربران با انجام مأموریت‌ها و فعالیت‌های مختلف داخل محصول امتیاز و جایزه می‌گرفتند. ایده‌اش این بود: کلاب استفاده روزمره را به پیشرفت تبدیل می‌کند — به جای اینکه از آدم‌ها بخواهد بیشتر تعامل کنند، هدف‌های کوچک و روشن به آن‌ها می‌دهد: مأموریت‌ها. هر مأموریت یک اقدام ساده داخل ذره‌بین است و انجامش امتیازی می‌دهد که می‌شود با یک جایزه واقعی عوضش کرد: شارژ همراه اول. مأموریت‌ها بخش‌های مختلف محصول را پوشش می‌دادند، پس کلاب آدم‌ها را به کشف فیچرهایی هم هل می‌داد که خودشان سراغش نمی‌رفتند.",
+          "challenge": "هدف این بود که کاربران انگیزه پیدا کنند برگردند، مشارکت کنند و بیشتر با ذره‌بین درگیر شوند — و بخش‌هایی از محصول را کشف کنند که خودشان بازش نمی‌کردند.",
+          "solution": "کلاب این‌طور کار می‌کند: مأموریت‌ها یک کار روشن داخل ذره‌بین به آدم‌ها می‌دهند — ویدیو ببین، پستی را در دیسکاوری لایک کن، پستی را ذخیره کن، یک کوئری در موتور جستجو سرچ کن. امتیازها هر مأموریت و فعالیت کامل‌شده را پاداش می‌دهند تا پیشرفت دیده شود و می‌شود آن‌ها را با شارژ همراه اول عوض کرد. بخش پیشرفت و وضعیت نشان می‌دهد چه چیزی انجام شده، چه چیزی مانده و جایزه بعدی چقدر نزدیک است. من باکس امتیاز — کارتی که نشان می‌دهد هر کس چقدر امتیاز گرفته — و وضعیت‌های خطای کلاب را طراحی کردم که به آدم‌ها می‌گویند چه اتفاقی افتاده و قدم بعدی چیست."
         },
         {
           "id": "6",
@@ -258,7 +322,17 @@
             "اکتشاف"
           ],
           "coverImage": "/works/papertrail.webp",
-          "accentColor": "#f43f5e"
+          "accentColor": "#f43f5e",
+          "role": "طراح محصول",
+          "overview": "دیسکاوری به آدم‌ها در یک فید، دسترسی به خبر و ویدیوهای سرگرمی شخصی‌سازی‌شده می‌دهد تا بدون اینکه لازم باشد اول جستجو کنند، چیزی ارزشمند برای خواندن یا دیدن پیدا کنند. دیسکاوری روی صفحه اصلی ذره‌بین است، پس یکی از اولین چیزهایی است که مردم وقتی محصول را باز می‌کنند می‌بینند. من به‌صورت مداوم روی دیسکاوری کار کردم: مرتب داده‌های محصول را بررسی می‌کردم، جاهایی را که مردم رها می‌کردند یا محتوا را نادیده می‌گرفتند پیدا می‌کردم و بر اساس آنچه می‌دیدم تجربه را بهتر می‌کردم.",
+          "challenge": "کامنت‌ها نمی‌توانستند فوری منتشر شوند. هر کامنت باید پیش از نمایش از بررسی CP رد می‌شد، پس کامنت درست بعد از ارسال دیده نمی‌شد.",
+          "solution": "برای هر کامنت یک وضعیت طراحی کردم تا آدم‌ها ببینند چه بر سر کامنتشان می‌آید: «در حال بررسی» وقتی منتظر است و «رد شده» اگر قبول نشود. همچنین پنج سفر کاربر را طراحی کردم — طراحی و شخصی‌سازی تب‌ها، بازخورد و گزارش مشکل، پست تمام‌صفحه، کامنت‌ها و جمع‌آوری نظر کاربران — و از داشبوردهای Grafana (زمان صرف‌شده، تعامل، مصرف ویدیو، رفتار بازگشت و ذخیره‌کردن) برای هدایت بهبودهای مداوم تجربه استفاده کردم.",
+          "impact": [
+            {
+              "value": "افزایش تعامل",
+              "label": "تعامل کاربران با دیسکاوری با بهبود تجربه فید و اضافه کردن شخصی‌سازی بیشتر شد تا مردم بتوانند فید را دور سلیقه خودشان شکل دهند"
+            }
+          ]
         },
         {
           "id": "7",
@@ -273,7 +347,12 @@
             "فارسی"
           ],
           "coverImage": "/works/nudge.webp",
-          "accentColor": "#0ea5e9"
+          "accentColor": "#0ea5e9",
+          "role": "طراح محصول",
+          "team": "لید طراحی محصول، مدیرهای محصول، مهندس‌ها",
+          "overview": "موتور جستجوی ذره‌بین یک تجربه جستجوی فارسی‌محور است که به مردم کمک می‌کند سریع محتوای وب، اطلاعات و سرگرمی فارسی را پیدا کنند. من در سال ۲۰۲۳ (۱۴۰۲) به تیم طراحی ذره‌بین پیوستم و بخش‌هایی از صفحه نتایج را طراحی کردم که فراتر از یک لیست لینک‌اند: پاسخ‌های هوشمند برای ورزش، فیلم و سریال، خرید محصول و رزرو بلیت، به‌علاوه پیشنهادهای هوشمند، جستجوهای مرتبط و وضعیت‌های خطا. ایده‌اش این است: صفحه نتایج می‌تواند بیشتر از ارجاع به وب‌سایت‌های دیگر باشد — برای نیازهای رایجی مثل نتیجه یک مسابقه، یک فیلم، قیمت یک محصول یا یک بلیت، خود صفحه می‌تواند پاسخ را نشان دهد تا کاربر بدون باز کردن صفحه دوم به خواسته‌اش برسد.",
+          "challenge": "در زمان قطعی اینترنت، وب‌سایت‌های با دامنه بین‌المللی در دسترس نبودند، هرچند این مشکل خارج از کنترل ذره‌بین بود. اما کاربران اغلب فرض می‌کردند خود ذره‌بین است که نمی‌تواند وب‌سایت‌ها را باز کند و این روی اعتمادشان به محصول اثر منفی می‌گذاشت. مدیرهای محصول و پروژه هم به‌شدت مخالف حذف وب‌سایت‌های در دسترس‌نبود از نتایج جستجو بودند.",
+          "solution": "به جای پنهان کردن نتایج در دسترس‌نبود، وب‌سایت‌های غیرقابل دسترس را با یک وضعیت غیرفعال به‌صورت بصری متمایز کردم؛ روشن بود که در آن لحظه نمی‌شود به آن‌ها دسترسی داشت، بدون اینکه از نتایج حذف شوند. همچنین اقدام «مشاهده آفلاین وب‌سایت» را معرفی کردم که به کاربران اجازه می‌دهد متن قبلاً دریافت‌شده وب‌سایت را بدون اتصال فعال به سایت اصلی بخوانند. بده‌بستانش این بود: کاربران هنوز می‌توانستند وب‌سایت‌های مرتبط را کشف کنند اما نمی‌توانستند به صفحه اصلی بروند؛ خواندن آفلاین یک راه جایگزین برای دسترسی به محتوا بود، هرچند نمی‌توانست جای تجربه کامل و تعاملی وب‌سایت را بگیرد."
         },
         {
           "id": "8",
@@ -302,7 +381,22 @@
             "Material 3"
           ],
           "coverImage": "/works/parallax.webp",
-          "accentColor": "#f59e0b"
+          "accentColor": "#f59e0b",
+          "role": "طراح محصول",
+          "team": "مدیرهای محصول",
+          "overview": "UPI یک محصول آموزشی با دو بخش است که با هم کار می‌کنند: یک فید آموزشی سفارشی و یک دستیار آموزشی هوش مصنوعی. آدم‌ها محتوای یادگیری متناسب با آنچه می‌خواهند یاد بگیرند دریافت می‌کنند و دستیاری دارند که وقتی برای فهمیدن چیزی کمک لازم دارند از آن بپرسند.",
+          "challenge": "هدف، ساختن یک دستیار آموزشی بود — یک تجربه یادگیری فیدمحور که کشف محتوای آموزشی را جذاب‌تر و شخصی‌تر کند.",
+          "solution": "پیش و حین طراحی، کار را بر پایه تحقیق بنا کردم. تحلیل کمی داده: داده‌های دستیار ذره‌بین را بررسی کردیم تا بفهمیم مردم چطور از یک دستیار استفاده می‌کنند، تست‌های اسموک اجرا کردیم و نظرسنجی داشتیم. تحلیل کیفی داده: جلسات فوکوس گروپ برگزار کردیم و با کاربران مصاحبه کردیم.",
+          "impact": [
+            {
+              "value": "۱۶",
+              "label": "مصاحبه با کاربر"
+            },
+            {
+              "value": "۳",
+              "label": "جلسه فوکوس گروپ"
+            }
+          ]
         }
       ]
     }
