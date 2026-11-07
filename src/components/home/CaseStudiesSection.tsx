@@ -290,33 +290,49 @@ export function Thumbnail({
         background: `linear-gradient(135deg, ${study.accentColor}1a 0%, ${study.accentColor}0a 60%, transparent 100%)`,
       }}
     >
-      {/* Soft grid texture. */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 opacity-60"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(15,23,42,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(15,23,42,0.06) 1px, transparent 1px)",
-          backgroundSize: "22px 22px",
-          maskImage:
-            "radial-gradient(ellipse at center, black 30%, transparent 80%)",
-        }}
-      />
+      {/* Cover image, when the case provides one. Fills the thumbnail;
+          the gradient above stays as the loading/fallback surface. */}
+      {study.coverImage ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={study.coverImage}
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+      ) : null}
 
-      {/* Project monogram in the center. Scales subtly on hover. */}
-      <motion.div
-        aria-hidden="true"
-        animate={isHovered ? { scale: 1.06 } : { scale: 1 }}
-        transition={{ type: "spring", stiffness: 260, damping: 22 }}
-        className="absolute inset-0 flex items-center justify-center"
-      >
-        <span
-          className={`font-semibold tracking-tighter ${monogramClass}`}
-          style={{ color: study.accentColor, opacity: 0.85 }}
+      {/* Soft grid texture. Hidden under a cover image. */}
+      {!study.coverImage && (
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 opacity-60"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(15,23,42,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(15,23,42,0.06) 1px, transparent 1px)",
+            backgroundSize: "22px 22px",
+            maskImage:
+              "radial-gradient(ellipse at center, black 30%, transparent 80%)",
+          }}
+        />
+      )}
+
+      {/* Project monogram in the center. Scales subtly on hover.
+          Only shown when there is no cover image. */}
+      {!study.coverImage && (
+        <motion.div
+          aria-hidden="true"
+          animate={isHovered ? { scale: 1.06 } : { scale: 1 }}
+          transition={{ type: "spring", stiffness: 260, damping: 22 }}
+          className="absolute inset-0 flex items-center justify-center"
         >
-          {monogram(study.title)}
-        </span>
-      </motion.div>
+          <span
+            className={`font-semibold tracking-tighter ${monogramClass}`}
+            style={{ color: study.accentColor, opacity: 0.85 }}
+          >
+            {monogram(study.title)}
+          </span>
+        </motion.div>
+      )}
 
       {/* Corner accent. */}
       <div
